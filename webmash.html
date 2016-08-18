@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<!-- 
+    Student Name: Devang Patel   utaid: 1001352106 
+-->
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Address with Weather Details</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="webmash.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnWnUqDlMhQsR3El_JXwdKLynDax8eNRE" type="text/javascript"></script>
+	<style>
+       body {background-color:lightgrey;}
+       h3   {color:blue;}
+	   h1   {color:red;}
+	   textarea {border: 3px solid;color:black;}
+	   div {color:blue;}
+	   textarea.relative {
+           position: relative;
+           left: 650px;	
+		   top: -500px;
+        }
+		label.relative {
+           position: relative;
+           left: 650px;	
+		   top: -500px;
+        }
+		input.relative {
+           position: relative;
+           left: 650px;	
+		   top: -500px;
+        }
+    </style>
+  </head>
+  <body onload="initMap();">
+    <marquee  behavior="scroll" direction="left" bgcolor="blue"><h1>WEBMASH</h1></marquee>
+    <div id="map" style="width: 600px; height: 500px;"></div>
+	<div><label class="relative"><h3>History Log:</h3></label></div>
+	 <textarea rows="25" cols="90" id="tx1" class="relative">&nbsp;</textarea><br><br>
+	 <input type="reset" value="Clear" class="relative" onclick="cleartextarea();">
+  </body>
+</html>
+
