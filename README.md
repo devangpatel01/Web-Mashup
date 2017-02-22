@@ -1,6 +1,6 @@
 ## A web mashup that combines two web services: Google Maps and Geonames
 
-**Technologies used:**
+**Technologies used:**  
 1) JavaScript  
 2) AJAX  
 3) HTML  
