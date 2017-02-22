@@ -1,6 +1,4 @@
-// Put your zillow.com API key here
-/* Devang Patel uta id: 1001352106*/
-var username = "devangpatel01";
+var username = "Your_Username";
 var request = new XMLHttpRequest();
 var infowindow;
 var marker;
